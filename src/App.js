@@ -9,6 +9,7 @@ export default function App(props) {
       return <WeatherForecast img={ele.img} condition={ele.condition} time={ele.time} key={index}/>
     })
   return (
+    <>
     <div className="App">
       <section> 
       {allWeatherData}
@@ -16,5 +17,6 @@ export default function App(props) {
 
 
     </div>
+  </>
   );
 }

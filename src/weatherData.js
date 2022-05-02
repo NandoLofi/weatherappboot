@@ -10,7 +10,7 @@ const weatherData = [
         time: "night"
     },
     {
-        img: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/cloudy-night.svg'",
+        img: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/day.svg",
         conditions: "clear",
         time: "day"
     },
